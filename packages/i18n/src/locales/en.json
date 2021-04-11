@@ -112,6 +112,8 @@
     "rename": "Rename this playlist",
     "songs": "{{total}} song",
     "songs_plural": "{{total}} songs",
+    "import": "Import playlist by url",
+    "select-source": "Select the playlist source",
     "title": "Title"
   },
   "plugins": {
