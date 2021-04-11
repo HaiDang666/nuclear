@@ -108,8 +108,10 @@
     "empty": "Không có playlist nào.",
     "empty-help": "Tạo hoặc nhập playlist bằng link!",
     "header": "Playlist của bạn",
+    "import": "Import playlist by url",
     "queue": "Thêm playlist vào hàng chờ",
     "rename": "Đổi tên playlist",
+    "select-source": "Select the playlist source",
     "songs": "{{total}} bài hát",
     "title": "Tên bài hát"
   },

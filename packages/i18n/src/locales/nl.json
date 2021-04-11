@@ -108,8 +108,10 @@
     "empty": "Geen afspeellijsten.",
     "empty-help": "Try create some playlists or import by url and they will appear here!",
     "header": "Your playlists",
+    "import": "Import playlist by url",
     "queue": "Add playlist to queue",
     "rename": "Naam wijzigen",
+    "select-source": "Select the playlist source",
     "songs": "{{total}} nummer",
     "songs_plural": "{{total}} nummers",
     "title": "Titel"

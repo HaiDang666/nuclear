@@ -108,8 +108,10 @@
     "empty": "Walang playlists.",
     "empty-help": "Try create some playlists or import by url and they will appear here!",
     "header": "Your playlists",
+    "import": "Import playlist by url",
     "queue": "Add playlist to queue",
     "rename": "Palitan ang pangalan nitong playlist",
+    "select-source": "Select the playlist source",
     "title": "Title"
   },
   "plugins": {

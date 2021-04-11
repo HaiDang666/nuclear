@@ -108,8 +108,10 @@
     "empty": "Aucune playlist.",
     "empty-help": "Try create some playlists or import by url and they will appear here!",
     "header": "Your playlists",
+    "import": "Import playlist by url",
     "queue": "Ajouter la playlist à la file de lecture",
     "rename": "Renommer cette playlist",
+    "select-source": "Select the playlist source",
     "songs": "{{total}} morceau",
     "songs_plural": "{{total}} morceaux",
     "title": "Titre"

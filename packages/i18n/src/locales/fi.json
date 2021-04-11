@@ -108,8 +108,10 @@
     "empty": "Ei soittolistoja.",
     "empty-help": "Try create some playlists or import by url and they will appear here!",
     "header": "Your playlists",
+    "import": "Import playlist by url",
     "queue": "Lisää soittolista jonoon",
     "rename": "Nimeä tämä soittolista uudelleen",
+    "select-source": "Select the playlist source",
     "songs": "{{total}} kappaleita",
     "songs_plural": "{{total}} kappaleita",
     "title": "nimi"

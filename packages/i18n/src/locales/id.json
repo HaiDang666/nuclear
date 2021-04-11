@@ -108,8 +108,10 @@
     "empty": "Daftar putar tidak ditemukan.",
     "empty-help": "Try create some playlists or import by url and they will appear here!",
     "header": "Your playlists",
+    "import": "Import playlist by url",
     "queue": "Add playlist to queue",
     "rename": "Ubah nama daftar putar",
+    "select-source": "Select the playlist source",
     "songs": "{{total}} lagu",
     "title": "Judul"
   },

@@ -108,8 +108,10 @@
     "empty": "Keine Wiedergabelisten.",
     "empty-help": "Try create some playlists or import by url and they will appear here!",
     "header": "Your playlists",
+    "import": "Import playlist by url",
     "queue": "Playlist zur Warteschlange hinzufügen",
     "rename": "Diese Wiedergabeliste umbenennen",
+    "select-source": "Select the playlist source",
     "songs": "{{total}} Lied",
     "songs_plural": "{{total}} Lieder",
     "title": "Titel"

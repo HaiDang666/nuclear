@@ -108,8 +108,10 @@
     "empty": "플레이리스트 없음.",
     "empty-help": "Try create some playlists or import by url and they will appear here!",
     "header": "Your playlists",
+    "import": "Import playlist by url",
     "queue": "재생 목록에 플레이리스트 추가",
     "rename": "플레이리스트 제목 수정",
+    "select-source": "Select the playlist source",
     "songs": "{{total}} 곡",
     "title": "제목"
   },

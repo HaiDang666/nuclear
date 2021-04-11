@@ -108,8 +108,10 @@
     "empty": "Ingen afspilningsliste.",
     "empty-help": "Try create some playlists or import by url and they will appear here!",
     "header": "Your playlists",
+    "import": "Import playlist by url",
     "queue": "Tilføj afspilningsliste til kø",
     "rename": "Omdøb denne afspilningsliste",
+    "select-source": "Select the playlist source",
     "title": "Titel"
   },
   "plugins": {

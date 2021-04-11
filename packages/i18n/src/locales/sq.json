@@ -108,8 +108,10 @@
     "empty": "Nuk ka lista këngësh.",
     "empty-help": "Try create some playlists or import by url and they will appear here!",
     "header": "Your playlists",
+    "import": "Import playlist by url",
     "queue": "Shto këtë listë në radhë",
     "rename": "Riemërtoje këtë listë",
+    "select-source": "Select the playlist source",
     "songs": "{{total}} këngë",
     "songs_plural": "{{total}} këngësh",
     "title": "Titulli"
