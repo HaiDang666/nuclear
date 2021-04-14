@@ -3,10 +3,12 @@ import getArtistTitle from 'get-artist-title';
 import ytdl from 'ytdl-core';
 import ytlist from 'youtube-playlist';
 import ytsr from 'ytsr';
+import logger from 'electron-timber';
 
 import LastFmApi from './Lastfm';
 import { StreamQuery } from '../plugins/plugins.types';
 import * as SponsorBlock from './SponsorBlock';
+import playlistHelper, { Playlist } from '../helpers/playlist';
 
 const lastfm = new LastFmApi(
   process.env.LAST_FM_API_KEY,
@@ -75,6 +77,31 @@ function handleYoutubePlaylist(url) {
       });
     });
 }
+
+export function getYoutubePlaylist(url): Promise<Playlist> {
+  return new Promise((resolve, reject) => {
+    if (!analyseUrlType(url).isYoutubePlaylist) {
+      return reject(new Error('Invalid youtube uri'));
+    }
+    
+    try {
+      ytlist(url)
+        .then((res) => {
+          // console.log(res.data);
+          // const allTracks = res.data.playlist.map((elt) => {
+          //   return getTrackFromTitle(elt);
+          // });
+          const newPlaylist = playlistHelper.formatPlaylistForStorage('youtube', res.data);
+          resolve(newPlaylist);
+        }).catch(reject);
+    } catch (error) {
+      logger.error('An error when getting youtube playlist');
+      logger.error(error);
+      return reject(error);
+    }
+  });
+}
+
 
 function handleYoutubeVideo(url) {
   return ytdl.getInfo(url)

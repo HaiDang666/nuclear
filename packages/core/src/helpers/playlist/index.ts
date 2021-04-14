@@ -1,6 +1,6 @@
 import uuidv4 from 'uuid/v4';
 import {Playlist, PlaylistTrack, PlaylistTrackStream} from './types';
-import { SpotifyPlaylistProvider } from '../../plugins/playlist';
+import { SpotifyPlaylistProvider, YoutubePlaylistProvider } from '../../plugins/playlist';
 
 const formatPlaylistForStorage = (name: string, tracks: Array<any>, id: string = uuidv4()): Playlist => {
   return {
@@ -65,7 +65,8 @@ const extractStreamData = (stream): PlaylistTrackStream => {
 };
 
 const PlaylistProviders = {
-  'Spotify': new SpotifyPlaylistProvider()
+  'Spotify': new SpotifyPlaylistProvider(),
+  'Youtube': new YoutubePlaylistProvider()
 };
 
 const getPlaylistFromUrl = async (url: string, source: string): Promise<Playlist> => {

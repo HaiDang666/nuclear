@@ -17,6 +17,11 @@ const sourceOptions = [
     key: 'Spotify',
     text: 'Spotify',
     value: 'Spotify'
+  },
+  {
+    key: 'Youtube',
+    text: 'Youtube',
+    value: 'Youtube'
   }
 ];
 
