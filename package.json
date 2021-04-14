@@ -229,6 +229,7 @@
   },
   "dependencies": {
     "7zip-bin-mac": "^1.0.1",
+    "spotify-uri": "^2.2.0",
     "sqlite3": "^4.2.0"
   }
 }

@@ -70,13 +70,14 @@
 			font-weight: bold;
 			margin: 0 0 0.5rem 0;
 		}
+
+		.ui.dropdown .menu .item {
+			background: $background2;
+		}
 	
-		.ui.segment {
-			// display: flex;
-			// align-items: center;
-	
-			background: rgba($background2, 0.35);
-			border: 1px solid $background2;
+		.ui.dropdown .menu .selected.item, .ui.dropdown.selected {
+			background: $bgdarker;
+			color: $white;
 		}
 	}
 }

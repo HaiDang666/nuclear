@@ -14,3 +14,6 @@ export { Audius };
 
 import * as SponsorBlock from './SponsorBlock';
 export { SponsorBlock };
+
+import * as Spotify from './Spotify'; 
+export { Spotify };
